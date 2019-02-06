@@ -1,0 +1,27 @@
+########################################################
+#                                                      #
+#    HOW TO CREATE OR EDIT A RESIDUE TOPOLOGY FILE     #
+#                                                      #
+########################################################
+
+NOTE: The residue file names have an extension ".top"
+
+* Choosing the residue topology file name:
+
+   Each and every of the residue topology files, stored inside this
+   directory, represents a protein residue topology, consisting of
+   the structural elements required for generating different conformers
+   of the side chain. The name of the file MUST match the name of the
+   residue, in LOWER CASE letters (mandatory). The list of protein
+   residues is defined as "pro_residues" in the file
+   "make_residue_database.py".
+
+* Describing branches of atoms to rotate over the defined axes:
+
+  The bonds have to be entered as "BND" record. Every record should
+  follow the structure:
+  
+  BND  1  2
+  
+  where 1 and 2 are some atom serial numbers (these numbers are
+  taken from the corresponding mol2 file).

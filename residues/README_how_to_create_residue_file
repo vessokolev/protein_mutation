@@ -1,0 +1,73 @@
+########################################################
+#                                                      #
+#        HOW TO CREATE OR EDIT A RESIDUE FILE          #
+#                                                      #
+########################################################
+
+NOTE: The residue file names have an extension ".res"
+
+* Choosing the residue file name:
+
+   Each and every of the residue files, stored inside this directory,
+   represents a protein residue description. The name of the file MUST
+   match the name of the residue, in LOWER CASE letters (mandatory).
+   The list of protein residues is defined as "pro_residues" in the
+   file "make_residue_database.py".
+
+
+* Data columns defined inside the file:
+
+   IT IS MANDATORY: The columns defined in every residue file must be
+   separated by at least one empty space.
+
+   Column  1: The name of the atom in the described residue description,
+              in MOLARIS force field name notation. NOTE that the
+              sequence of atom names in Column 1 should match the
+              sequence for the same residue that appear in the examined
+              PDB files.
+
+   Column  2: The name of the atom in the described residue description,
+              in AMBER99 force field name notation.
+
+   Column  3: The AMBER99 force field atom type.
+
+   Column  4: The atomic charge in relative (to the elementary charge)
+              units.
+
+   Column  5: The 12-6 Lennard-Jones sigma parameter, in nm.
+
+   Column  6: The 12-6 Lennard-Jones epsilon parameter, in kj/mol.
+
+   Column  7: x-coordinate of the atom in Angstroms (see Note 1 bellow)
+
+   Column  8: y-coordinate of the atom in Angstroms (see Note 1 bellow)
+
+   Column  9: z-coordinate of the atom in Angstroms (see Note 1 bellow)
+
+   Column 10: Chain "role" of the atom (see Note 2 bellow)
+
+
+* Notes:
+
+ ** Note 1:
+
+    The coordinates of each atom, listed in columns 7-9  x, y, z are
+    taken from some example PDB protein topology. In the sample PDB
+    from where the atom coordinates are taken, the bond angles and lengths
+    are set close to their optimal values.
+
+ ** Note 2:
+
+    The chain "role" is not related to any formalism involving the force
+    field parameters. It is just a number who helps the program code to
+    recognize the type of the atom regardless its atom name. Given bellow
+    are the implemented values and their meaning:
+    
+       -3 - the C atom of the main chain
+       -2 - the N atom of the main chain
+       -1 - the CA atom
+        0 - the HN and O atoms
+        1 - the side chain atoms (excluding the CB atom)
+        2 - the HA atom (the one connected to CA)
+        3 - the CB atom
+
