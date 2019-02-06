@@ -8,18 +8,3 @@ BND HSG  SG
 BND CA   N
 BND CA   CB
 BND CA   C
-DIH HA   CA   CB   HB1
-DIH C    CA   CB   HB1
-DIH N    CA   CB   HB1
-DIH HA   CA   CB   HB2
-DIH C    CA   CB   HB2
-DIH N    CA   CB   HB2
-DIH HA   CA   CB   SG
-DIH C    CA   CB   SG
-DIH N    CA   CB   SG
-DIH CA   CB   SG   HSG
-DIH HB1  CB   SG   HSG
-DIH HB2  CB   SG   HSG
-AXS CA   CB   1 4
-AXS CB   SG   5 5
-PTH HB1  HB2  SG   HSG  HSG

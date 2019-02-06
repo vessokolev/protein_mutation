@@ -7,15 +7,4 @@ BND C    O
 BND CA   N
 BND CA   CB
 BND CA   C
-DIH HA   CA   CB   HB1
-DIH HA   CA   CB   HB2
-DIH HA   CA   CB   SG
-DIH C    CA   CB   HB1
-DIH C    CA   CB   HB2
-DIH C    CA   CB   SG
-DIH N    CA   CB   HB1
-DIH N    CA   CB   HB2
-DIH N    CA   CB   SG
-AXS CA   CB   1  3
-PTH SG   HB1  HB2
 
