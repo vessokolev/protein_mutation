@@ -466,7 +466,7 @@ if __name__ == '__main__':
 
     argument.pickle_folder = '../pickle/'
 
-    argument.pickle_file_name = '../ligands.pkl'
+    argument.pickle_file_name = argument.pickle_folder + '/ligands.pkl'
 
     argument.ligand_file_prefix = '.lig'
 
