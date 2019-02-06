@@ -1374,7 +1374,7 @@ if __name__ == "__main__":
 
         if not argument.tmp_resname in excluded_pro_residues:
 
-            argument.current_topology_file = 'residues/' + argument.tmp_resname.lower() + '.top'
+            argument.current_topology_file = '../residues/' + argument.tmp_resname.lower() + '.top'
 
             create_binary_topology(argument)
 
