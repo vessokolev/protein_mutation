@@ -1,0 +1,129 @@
+# You need only the angle type 9 definitions.
+# DO NOT INCLUDE type 4 angle definitions. They are for handling
+# the energy contribution of the improper dihedral angles! 
+ CT  CT  OS  CT    9       0.0      1.60247     3  ; 
+ CT  CT  OS  CT    9     180.0      0.41840     2  ; 
+ C   N   CT  C     9     180.0      3.55640     2  ; 
+ C   N   CT  C     9       0.0      3.34720     1  ; 
+ N   CT  C   N     9     180.0      7.11280     1  ; 
+ N   CT  C   N     9     180.0      8.36800     2  ; 
+ CT  CT  N   C     9     180.0      2.09200     4  ; phi,psi,parm94
+ CT  CT  N   C     9     180.0      0.62760     3  ; phi,psi,parm94
+ CT  CT  N   C     9       0.0      2.21752     1  ; phi,psi,parm94
+ CT  CT  C   N     9       0.0      0.41840     4  ; phi,psi,parm94
+ CT  CT  C   N     9       0.0      0.29288     2  ; phi,psi,parm94
+ H   N   C   O     9     180.0     10.46000     2  ; JCC,7,(1986),230
+ H   N   C   O     9       0.0      8.36800     1  ; J.C.cistrans-NMA DE
+ CT  S   S   CT    9       0.0     14.64400     2  ; JCC,7,(1986),230
+ CT  S   S   CT    9       0.0      2.51040     3  ; JCC,7,(1986),230
+ OS  CT  CT  OS    9       0.0      0.60250     3  ; parm98, TC,PC,PAK
+ OS  CT  CT  OS    9       0.0      4.91620     2  ; Piotr et al.
+ OS  CT  CT  OH    9       0.0      0.60250     3  ; parm98, TC,PC,PAK
+ OS  CT  CT  OH    9       0.0      4.91620     2  ; parm98, TC,PC,PAK
+ OH  CT  CT  OH    9       0.0      0.60250     3  ; parm98, TC,PC,PAK
+ OH  CT  CT  OH    9       0.0      4.91620     2  ; parm98, TC,PC,PAK
+ OH  P   OS  CT    9       0.0      1.04600     3  ; JCC,7,(1986),230
+ OH  P   OS  CT    9       0.0      5.02080     2  ; gg&gt ene.631g*/mp2
+ OS  P   OS  CT    9       0.0      1.04600     3  ; JCC,7,(1986),230
+ OS  P   OS  CT    9       0.0      5.02080     2  ; gg&gt ene.631g*/mp2
+ OS  CT  N*  CK    9       0.0     10.46000     1  ; parm98, TC,PC,PAK
+ OS  CT  N*  CM    9       0.0     10.46000     1  ; parm98, TC,PC,PAK
+ H1  CT  C   O     9       0.0      3.34720     1  ; Junmei et al, 1999
+ H1  CT  C   O     9     180.0      0.33472     3  ; Junmei et al, 1999
+ HC  CT  C   O     9       0.0      3.34720     1  ; Junmei et al, 1999
+ HC  CT  C   O     9     180.0      0.33472     3  ; Junmei et al, 1999
+ HC  CT  CT  HC    9       0.0      0.62760     3  ; Junmei et al, 1999
+ HC  CT  CT  CT    9       0.0      0.66944     3  ; Junmei et al, 1999
+ HC  CT  CM  CM    9     180.0      1.58992     3  ; Junmei et al, 1999
+ HC  CT  CM  CM    9       0.0      4.81160     1  ; Junmei et al, 1999
+ HO  OH  CT  CT    9       0.0      0.66944     3  ; Junmei et al, 1999
+ HO  OH  CT  CT    9       0.0      1.04600     1  ; Junmei et al, 1999
+ HO  OH  C   O     9     180.0      9.62320     2  ; Junmei et al, 1999
+ HO  OH  C   O     9       0.0      7.94960     1  ; Junmei et al, 1999
+ CM  CM  C   O     9     180.0      9.10020     2  ; Junmei et al, 1999
+ CM  CM  C   O     9       0.0      1.25520     3  ; Junmei et al, 1999
+ CT  CM  CM  CT    9     180.0     27.82360     2  ; Junmei et al, 1999
+ CT  CM  CM  CT    9     180.0      7.94960     1  ; Junmei et al, 1999
+ CT  CT  CT  CT    9       0.0      0.75312     3  ; Junmei et al, 1999
+ CT  CT  CT  CT    9     180.0      1.04600     2  ; Junmei et al, 1999
+ CT  CT  CT  CT    9     180.0      0.83680     1  ; Junmei et al, 1999
+ CT  CT  OS  C     9       0.0      1.60247     3  ; Junmei et al, 1999
+ CT  CT  OS  C     9     180.0      3.34720     1  ; Junmei et al, 1999
+ CT  OS  CT  OS    9       0.0      0.41840     3  ; Junmei et al, 1999
+ CT  OS  CT  OS    9     180.0      3.55640     2  ; Junmei et al, 1999
+ CT  OS  CT  OS    9     180.0      5.64840     1  ; Junmei et al, 1999
+ O   C   OS  CT    9     180.0     11.29680     2  ; Junmei et al, 1999
+ O   C   OS  CT    9     180.0      5.85760     1  ; Junmei et al, 1999
+ F   CT  CT  F     9     180.0      5.02080     1  ; Junmei et al, 1999
+ Cl  CT  CT  Cl    9     180.0      1.88280     1  ; Junmei et al, 1999
+ Br  CT  CT  Br    9       0.0      0.00000     0  ; Junmei et al, 1999
+ H1  CT  CT  OS    9       0.0      1.04600     1  ; Junmei et al, 1999
+ H1  CT  CT  OH    9       0.0      1.04600     1  ; Junmei et al, 1999
+ H1  CT  CT  F     9       0.0      0.79496     1  ; Junmei et al, 1999
+ H1  CT  CT  Cl    9       0.0      1.04600     1  ; Junmei et al, 1999
+ H1  CT  CT  Br    9       0.0      2.30120     1  ; Junmei et al, 1999
+ HC  CT  CT  OS    9       0.0      1.04600     1  ; Junmei et al, 1999
+ HC  CT  CT  OH    9       0.0      1.04600     1  ; Junmei et al, 1999
+ HC  CT  CT  F     9       0.0      0.79496     1  ; Junmei et al, 1999
+ HC  CT  CT  Cl    9       0.0      1.04600     1  ; Junmei et al, 1999
+ HC  CT  CT  Br    9       0.0      2.30120     1  ; Junmei et al, 1999
+ CT  OS  CT  N*    9       0.0      1.60247     3  ; parm98.dat, TC,PC,PAK
+ CT  OS  CT  N*    9       0.0      2.71960     2  ; Piotr et al.
+ X   C   C   X     9     180.0     15.16700     2  ; Junmei et al, 1999
+ X   C   O   X     9     180.0     11.71520     2  ; Junmei et al, 1999
+ X   C   OS  X     9     180.0     11.29680     2  ; Junmei et al, 1999
+ X   CA  OH  X     9     180.0      3.76560     2  ; Junmei et al, 99
+ X   CM  OS  X     9     180.0      4.39320     2  ; Junmei et al, 1999
+ X   C   CA  X     9     180.0     15.16700     2  ; intrpol.bsd.on C6H6
+ X   C   CB  X     9     180.0     12.55200     2  ; intrpol.bsd.on C6H6
+ X   C   CM  X     9     180.0      9.10020     2  ; intrpol.bsd.on C6H6
+ X   C   N*  X     9     180.0      6.06680     2  ; JCC,7,(1986),230
+ X   C   NA  X     9     180.0      5.64840     2  ; JCC,7,(1986),230
+ X   C   NC  X     9     180.0     16.73600     2  ; JCC,7,(1986),230
+ X   C   OH  X     9     180.0      9.62320     2  ; Junmei et al, 1999
+ X   C   CT  X     9       0.0      0.00000     0  ; JCC,7,(1986),230
+ X   CA  CA  X     9     180.0     15.16700     2  ; intrpol.bsd.on C6H6
+ X   CA  CB  X     9     180.0     14.64400     2  ; intrpol.bsd.on C6H6
+ X   CA  CM  X     9     180.0     10.66920     2  ; intrpol.bsd.on C6H6
+ X   CA  CT  X     9       0.0      0.00000     0  ; JCC,7,(1986),230
+ X   CA  N2  X     9     180.0     10.04160     2  ; reinterpolated 93'
+ X   CA  NA  X     9     180.0      6.27600     2  ; JCC,7,(1986),230
+ X   CA  NC  X     9     180.0     20.08320     2  ; JCC,7,(1986),230
+ X   CB  CB  X     9     180.0     22.80280     2  ; intrpol.bsd.on C6H6
+ X   CB  N*  X     9     180.0      6.90360     2  ; JCC,7,(1986),230
+ X   CB  NB  X     9     180.0     10.66920     2  ; JCC,7,(1986),230
+ X   CB  NC  X     9     180.0     17.36360     2  ; JCC,7,(1986),230
+ X   CK  N*  X     9     180.0      7.11280     2  ; JCC,7,(1986),230
+ X   CK  NB  X     9     180.0     41.84000     2  ; JCC,7,(1986),230
+ X   CM  CM  X     9     180.0     27.82360     2  ; intrpol.bsd.on C6H6
+ X   CM  CT  X     9       0.0      0.00000     0  ; JCC,7,(1986),230
+ X   CM  N*  X     9     180.0      7.74040     2  ; JCC,7,(1986),230
+ X   CQ  NC  X     9     180.0     28.45120     2  ; JCC,7,(1986),230
+ X   CT  CT  X     9       0.0      0.65084     3  ; JCC,7,(1986),230
+ X   CT  N   X     9       0.0      0.00000     0  ; JCC,7,(1986),230
+ X   CT  N*  X     9       0.0      0.00000     0  ; JCC,7,(1986),230
+ X   CT  N2  X     9       0.0      0.00000     0  ; JCC,7,(1986),230
+ X   CT  OH  X     9       0.0      0.69733     3  ; JCC,7,(1986),230
+ X   CT  OS  X     9       0.0      1.60387     3  ; JCC,7,(1986),230
+ X   OH  P   X     9       0.0      1.04600     3  ; JCC,7,(1986),230
+ X   OS  P   X     9       0.0      1.04600     3  ; JCC,7,(1986),230
+ X   C   N   X     9     180.0     10.46000     2  ; AA,NMA
+ X   CT  N3  X     9       0.0      0.65084     3  ; JCC,7,(1986),230
+ X   CT  S   X     9       0.0      1.39467     3  ; JCC,7,(1986),230
+ X   CT  SH  X     9       0.0      1.04600     3  ; JCC,7,(1986),230
+ X   C*  CB  X     9     180.0      7.00820     2  ; intrpol.bsd.onC6H6aa
+ X   C*  CT  X     9       0.0      0.00000     0  ; JCC,7,(1986),230
+ X   C*  CW  X     9     180.0     27.30060     2  ; intrpol.bsd.on C6H6
+ X   CA  CN  X     9     180.0     15.16700     2  ; reinterpolated 93'
+ X   CB  CN  X     9     180.0     12.55200     2  ; reinterpolated 93'
+ X   CC  CT  X     9       0.0      0.00000     0  ; JCC,7,(1986),230
+ X   CC  CV  X     9     180.0     21.54760     2  ; intrpol.bsd.on C6H6
+ X   CC  CW  X     9     180.0     22.48900     2  ; intrpol.bsd.on C6H6
+ X   CC  NA  X     9     180.0      5.85760     2  ; JCC,7,(1986),230
+ X   CC  NB  X     9     180.0     10.04160     2  ; JCC,7,(1986),230
+ X   CN  NA  X     9     180.0      6.38060     2  ; reinterpolated 93'
+ X   CR  NA  X     9     180.0      9.72780     2  ; JCC,7,(1986),230
+ X   CR  NB  X     9     180.0     20.92000     2  ; JCC,7,(1986),230
+ X   CV  NB  X     9     180.0     10.04160     2  ; JCC,7,(1986),230
+ X   CW  NA  X     9     180.0      6.27600     2  ; JCC,7,(1986),230
+
