@@ -1,0 +1,1 @@
+This folder should contain Pickle binary containers. To crate them, execute the script "make_residue_database.py".
